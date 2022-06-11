@@ -52,11 +52,11 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="LL_Browse_100_HomePage"
+Order="LL_Browse_100_WebHomePage"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
-LL_Browse_100_HomePage=
+LL_Browse_100_WebHomePage=

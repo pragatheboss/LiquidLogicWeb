@@ -5,7 +5,7 @@ Action()
 	
 	web_reg_find("Text=Liquid Logic","SaveCount=HomePage_count","Search=Body",LAST);
 	
-	lr_start_transaction("LL_Browse_100_HomePage");		
+	lr_start_transaction("LL_Browse_100_WebHomePage");		
 
 	web_url("www.liquidlogic.co.uk", 
 		"URL={p_url}/", 
@@ -27,7 +27,7 @@ Action()
 		"Url=https://www.google-analytics.com/analytics.js", "Referer=https://www.liquidlogic.co.uk/", ENDITEM, */
 		LAST);
 
-	endTransaction(lr_eval_string("{HomePage_count}"),"LL_Browse_100_HomePage");
+	endTransaction(lr_eval_string("{HomePage_count}"),"LL_Browse_100_WebHomePage");
 	
 	lr_think_time(1);
 	
